@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me Page</title>
+    <link rel="stylesheet" type="text/css" href="style/aboutMeStyle.css">
+    <script src="scripts/myScript.js"></script>
+</head>
+<body style="background-color: #00BBC7">
+<h1>More about me</h1>
+<p class="p1">As mentioned before, I am currently at a company called Tinroof Software, and working onsite at my first
+    client, NCR, working on their Consumer Self Ordering Kiosk. For this project I am using C# and Angular. So far I
+    was able to create the groundwork for the QA Automation and I have also established a Jenkins server speeding up
+    the build process and allowing our team to have builds instantaneously as compared to before where it might take
+    over 3-4 hours to get one build. I also work on fixing high priority bugs for customers work on refactoring
+    and optimizing code. I am about halfway through my Post-Bacc program in Computer Science at Oregon State University,
+    and I hope to finish this program by June of 2021.
+</p>
+<br>
+<p class="p2">One of my biggest interests in the computer science field is cybersecurity. In my website I have a couple
+    of hidden gems as part of a scavenger hunt. In total there are 3 <span style="color: gold;">hidden</span> gems.
+    I have also included features to decrypt hidden messages. If you are able to figure it out please feel
+    free to email me using my  <i style="font-weight: bold;color: red">personal</i> email and I can verify your results.
+</p>
+<br>
+<br>
+<form class="decrypt">
+    <fieldset>
+        <legend class="form1">Please enter something to decrypt</legend>
+        <label for="decryptionEntry"></label>
+        <input type="text" name="decrypt" id="decryptionEntry">
+        <input type="submit" id="decryptSubmit">
+        <span class="result">Result: </span>
+        <span id="decryptResult" class="decryptResult"></span>
+    </fieldset>
+</form>
+<br>
+<form class="breach">
+    <fieldset>
+        <legend class="form2">Please enter a site to see if it has been breached</legend>
+        <label for="breachEntry"></label>
+        <input type="text" name="breachEntry" id="breachEntry">
+        <input type="submit" id="breachSubmit">
+        <span class="result">Result: </span>
+        <span id="breachResults" class="breachResults"></span>
+    </fieldset>
+</form>
+<div class="aboutMeMenuMain">
+    <a href="index.html" class="aboutMeMenu">Home</a>
+    <a href="resumeCv.html" class="resumeMenu">Experience/CV</a>
+    <a href="socialMedia.html" class="socialMenu">Social</a>
+</div>
+<div class="box" id="box">
+</div> <!--Why does this div exist? Maybe press and hold it?-->
+</body>
+</html>
